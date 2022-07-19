@@ -6,4 +6,5 @@ import ec.edu.insteclrg.domain.Provincia;
 
 public interface ProvinciaRepository extends JpaRepository<Provincia, Long> {
 
+	public Provincia findByNombre(String nom);
 }
